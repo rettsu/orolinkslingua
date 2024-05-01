@@ -31,6 +31,16 @@ class Main_Controller extends Controller
         return view('auth.register');
     }
 
+    public function faq()
+    {
+        return view('main.faq');
+    }
+
+    public function pagenotfound()
+    {
+        return  view('pagenotfound');
+    }
+
     public function loginPost(Request $request)
     {
         $request->validate([

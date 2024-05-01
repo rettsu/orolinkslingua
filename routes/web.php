@@ -9,6 +9,12 @@ Route::get('/', [Main_Controller::class, 'index'])->name(name:'index');
 // About Page
 Route::get('/about', [Main_Controller::class, 'about'])->name(name:'about');
 
+// FAQ
+Route::get('/faq', [Main_Controller::class, 'faq'])->name(name:'faq');
+
+// Page not found
+Route::get('/pagenotfound', [Main_Controller::class, 'pagenotfound'])->name(name:'pagenotfound');
+
 // Login
 Route::get('/login', [Main_Controller::class, 'login'])->name(name:'login');
 Route::post('/login', [Main_Controller::class, 'loginPost'])->name(name:'login.post');

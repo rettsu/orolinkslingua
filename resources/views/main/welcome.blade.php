@@ -41,7 +41,7 @@
       <main class="px-3">
         <p class="lead">Linking your golden goals through learning the English Language.</p>
         <p class="lead">
-          <a href="#">Learn more</a>
+          <a class="btn bsb-btn-5xl btn-success rounded-pill px-5 fs-6 m-0" href="{{ route('pagenotfound') }}" role="button">Learn More</a>
         </p>
       </main>
 

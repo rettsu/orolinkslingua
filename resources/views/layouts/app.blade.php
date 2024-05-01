@@ -26,6 +26,9 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.bunny.net">
 
+    {{-- Error Page --}}
+	<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/error-404s/error-404-1/assets/css/error-404-1.css">
+
 	@include('layouts/style')
 
 	<style>

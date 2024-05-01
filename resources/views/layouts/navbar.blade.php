@@ -58,10 +58,10 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="{{ route('index') }}" class="nav-link px-2">Home</a></li>
-        <li><a href="#" class="nav-link px-2">Features</a></li>
-        <li><a href="#" class="nav-link px-2">FAQs</a></li>
+        <li><a href="{{ route('pagenotfound') }}" class="nav-link px-2">Features</a></li>
+        <li><a href="{{ route('faq') }}" class="nav-link px-2">FAQs</a></li>
         <li><a href="{{ route('about') }}" class="nav-link px-2">About</a></li>
-        <li><a href="#" class="nav-link px-2">Documentations</a></li>
+        <li><a href="{{ route('pagenotfound') }}" class="nav-link px-2">Documentations</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
